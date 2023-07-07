@@ -1,0 +1,41 @@
+--Vesko
+Home button
+//a[@id='nav-link-home']
+//a[contains(@href, '/posts/all')]
+//*[contains(text(),'Home')]
+
+Sign In label
+//p[@class='h4 mb-4']
+(//*[contains(text(),'Sign in')])[1]
+
+Username field
+//input[@id='defaultLoginFormUsername']
+//input[@formcontrolname='usernameOrEmail']
+//input[@name='usernameOrEmail']
+
+Password field
+//input[@id='defaultLoginFormPassword']
+//input[@formcontrolname='password']
+//input[@name='password']
+
+Remember me check box
+//input[@class='remember-me-button ng-untouched ng-pristine ng-valid']
+//input[@formcontrolname='rememberMe']
+
+Submit button
+//button[@class='my-4 btn btn-primary']
+//button[@id='sign-in-button']
+//button[@type='submit']
+
+Not a member?
+//*[contains(text(),'Not a member?')]
+//span[@class='color-black']
+
+Register button
+//*[contains(text(),'Register')]
+//a[contains(@href, '/users/register')]
+
+iSkillo logo
+//a[@class='navbar-brand']//img
+
+
